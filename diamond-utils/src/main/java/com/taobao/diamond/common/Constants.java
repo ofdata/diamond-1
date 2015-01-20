@@ -35,9 +35,9 @@ public class Constants {
 
     public static final String PROBE_MODIFY_REQUEST = "Probe-Modify-Request";
 
-    public static final String PROBE_MODIFY_RESPONSE = "Probe-Modify-Response";
+    //public static final String PROBE_MODIFY_RESPONSE = "Probe-Modify-Response";
 
-    public static final String PROBE_MODIFY_RESPONSE_NEW = "Probe-Modify-Response-New";
+    //public static final String PROBE_MODIFY_RESPONSE_NEW = "Probe-Modify-Response-New";
 
     public static final String CONTENT_MD5 = "Content-MD5";
 
@@ -57,7 +57,7 @@ public class Constants {
 
     public static final String CONFIG_HTTP_URI_FILE = "/diamond-server/diamond";
 
-    public static final String HTTP_URI_LOGIN = "/diamond-server/";
+    //public static final String HTTP_URI_LOGIN = "/diamond-server/";
 
     public static final String ENCODE = "GBK";
 
@@ -65,9 +65,9 @@ public class Constants {
 
     public static final String WORD_SEPARATOR = Character.toString((char) 2);
 
-    public static final String DEFAULT_USERNAME = "paomian";
+    //public static final String DEFAULT_USERNAME = "paomian";
 
-    public static final String DEFAULT_PASSWORD = "123";
+    //public static final String DEFAULT_PASSWORD = "123";
     
     /*
      * 批量操作时, 单条数据的状态码
