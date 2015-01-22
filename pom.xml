@@ -3,21 +3,21 @@
 	
 	<modelVersion>4.0.0</modelVersion>
 	<inceptionYear>2010</inceptionYear>
-	<groupId>cn.leancloud.conf</groupId>
-	<artifactId>conf-all</artifactId>
+	<groupId>cn.leancloud.diamond</groupId>
+	<artifactId>diamond-all</artifactId>
 	<packaging>pom</packaging>
 	<version>2.0.5.4-SNAPSHOT</version>
-	<name>leancloud conf v${project.version}</name>
+	<name>leancloud diamond v${project.version}</name>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
 
 	<modules>
-		<module>conf-client</module>
-		<module>conf-sdk</module>
-		<module>conf-server</module>
-		<module>conf-utils</module>
+		<module>diamond-client</module>
+		<module>diamond-sdk</module>
+		<module>diamond-server</module>
+		<module>diamond-utils</module>
 	</modules>
 
 	<build>
@@ -82,12 +82,12 @@
 		<dependencies>
 			<dependency>
 				<groupId>${pom.groupId}</groupId>
-				<artifactId>conf-client</artifactId>
+				<artifactId>diamond-client</artifactId>
 				<version>${project.version}</version>
 			</dependency>
 			<dependency>
 				<groupId>${pom.groupId}</groupId>
-				<artifactId>conf-utils</artifactId>
+				<artifactId>diamond-utils</artifactId>
 				<version>${project.version}</version>
 			</dependency>
 			<dependency>
