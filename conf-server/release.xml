@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <assembly>
-	<id>diamond-server</id>
+	<id>conf-server</id>
 	<formats>
 		<format>dir</format>
 		<format>tar.gz</format>
@@ -8,11 +8,11 @@
 	<moduleSets>
 		<moduleSet>
 			<includes>
-				<include>com.taobao.diamond:diamond-utils</include>
-				<include>com.taobao.diamond:diamond-server</include>	
+				<include>cn.leancloud.conf:conf-utils</include>
+				<include>cn.leancloud.conf:conf-server</include>
 			</includes>
 			<binaries>
-				<outputDirectory>diamond-server/lib/</outputDirectory>
+				<outputDirectory>conf-server/lib/</outputDirectory>
 				<unpack>false</unpack>
 			</binaries>
 		</moduleSet>

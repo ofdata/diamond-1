@@ -43,7 +43,7 @@ public class ConfigController {
 
 
     public String getConfig(HttpServletRequest request, HttpServletResponse response, String dataId, String group) {
-        response.setHeader("Content-Type", "text/html;charset=GBK");
+        response.setHeader("Content-Type", "text/html;charset=UTF-8");
         final String address = getRemortIP(request);
         if (address == null) {
             // 未找到远端地址，返回400错误
@@ -83,7 +83,7 @@ public class ConfigController {
 
 
     public String getProbeModifyResult(HttpServletRequest request, HttpServletResponse response, String probeModify) {
-        response.setHeader("Content-Type", "text/html;charset=GBK");
+        response.setHeader("Content-Type", "text/html;charset=UTF-8");
         final String address = getRemortIP(request);
         if (address == null) {
             // 未找到远端地址，返回400错误

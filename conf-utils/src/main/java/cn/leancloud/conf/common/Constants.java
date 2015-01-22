@@ -17,7 +17,7 @@ public class Constants {
 
     public static final String DEFAULT_DOMAINNAME = "config.leancloud.cn";
 
-    public static final String DAILY_DOMAINNAME = "d.e.f";
+    public static final String DAILY_DOMAINNAME = "daily.leancloud.cn";
 
     public static final int DEFAULT_PORT = 8080;
 
@@ -53,13 +53,13 @@ public class Constants {
 
     public static final int RECV_WAIT_TIMEOUT = ONCE_TIMEOUT * 5;// 毫秒
 
-    public static final String HTTP_URI_FILE = "/diamond-server/config.co";
+    public static final String HTTP_URI_FILE = "/conf-server/config.co";
 
-    public static final String CONFIG_HTTP_URI_FILE = "/diamond-server/diamond";
+    public static final String CONFIG_HTTP_URI_FILE = "/conf-server/diamond";
 
     //public static final String HTTP_URI_LOGIN = "/diamond-server/";
 
-    public static final String ENCODE = "GBK";
+    public static final String ENCODE = "UTF-8";
 
     public static final String LINE_SEPARATOR = Character.toString((char) 1);
 

@@ -3,21 +3,21 @@
 	
 	<modelVersion>4.0.0</modelVersion>
 	<inceptionYear>2010</inceptionYear>
-	<groupId>com.taobao.diamond</groupId>
-	<artifactId>diamond-all</artifactId>
+	<groupId>cn.leancloud.conf</groupId>
+	<artifactId>conf-all</artifactId>
 	<packaging>pom</packaging>
-	<version>2.0.5.4.taocode-SNAPSHOT</version>
-	<name>taobao diamond v${project.version}</name>
+	<version>2.0.5.4-SNAPSHOT</version>
+	<name>leancloud conf v${project.version}</name>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
 
 	<modules>
-		<module>diamond-client</module>
-		<module>diamond-sdk</module>
-		<module>diamond-server</module>
-		<module>diamond-utils</module>
+		<module>conf-client</module>
+		<module>conf-sdk</module>
+		<module>conf-server</module>
+		<module>conf-utils</module>
 	</modules>
 
 	<build>
@@ -61,8 +61,8 @@
 				<artifactId>maven-site-plugin</artifactId>
 				<configuration>
 					<locales>zh_CN</locales>
-					<outputEncoding>GBK</outputEncoding>
-					<inputEncoding>GBK</inputEncoding>
+					<outputEncoding>UTF-8</outputEncoding>
+					<inputEncoding>UTF-8</inputEncoding>
 				</configuration>
 			</plugin>
 
@@ -82,12 +82,12 @@
 		<dependencies>
 			<dependency>
 				<groupId>${pom.groupId}</groupId>
-				<artifactId>diamond-client</artifactId>
+				<artifactId>conf-client</artifactId>
 				<version>${project.version}</version>
 			</dependency>
 			<dependency>
 				<groupId>${pom.groupId}</groupId>
-				<artifactId>diamond-utils</artifactId>
+				<artifactId>conf-utils</artifactId>
 				<version>${project.version}</version>
 			</dependency>
 			<dependency>
@@ -181,8 +181,8 @@
 				<artifactId>maven-javadoc-plugin</artifactId>
 				<version>2.5</version>
 				<configuration>
-					<encoding>GBK</encoding>
-					<charset>GBK</charset>
+					<encoding>UTF-8</encoding>
+					<charset>UTF-8</charset>
 				</configuration>
 				<reportSets>
 					<reportSet>
@@ -208,7 +208,7 @@
 			</plugin>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-clover-plugin</artifactId>
+				<artifactId>maven-cl over-plugin</artifactId>
 				<configuration>
 					<licenseLocation>clover.license</licenseLocation>
 					<generateHistorical>true</generateHistorical>
@@ -236,18 +236,30 @@
 			</plugin>
 		</plugins>
 	</reporting>
-
+<!--todo-->
+	<!--<distributionManagement>-->
+        <!--<repository>-->
+             <!--<id>leancloudReleases</id>-->
+			 <!--<name>leancloud nexus</name>-->
+             <!--<url>http://mvnrepo.code.taobao.org/nexus/content/repositories/releases/</url>-->
+        <!--</repository>-->
+        <!--<snapshotRepository>-->
+              <!--<id>leancloudSnapshots</id>-->
+			  <!--<name>leancloud nexus</name>-->
+              <!--<url>http://mvnrepo.code.taobao.org/nexus/content/repositories/snapshots/</url>-->
+         <!--</snapshotRepository>-->
+	<!--</distributionManagement>-->
 	<distributionManagement>
-        <repository>
-             <id>taocodeReleases</id>
-			 <name>taocode nexus</name>
-             <url>http://mvnrepo.code.taobao.org/nexus/content/repositories/releases/</url> 
-        </repository>
-        <snapshotRepository>
-              <id>taocodeSnapshots</id>
-			  <name>taocode nexus</name>
-              <url>http://mvnrepo.code.taobao.org/nexus/content/repositories/snapshots/</url>
-         </snapshotRepository>
+		<repository>
+			<id>leancloudReleases</id>
+			<name>leancloud nexus</name>
+			<url>http://maven.mei.fm/nexus/content/repositories/releases</url>
+		</repository>
+		<snapshotRepository>
+			<id>leancloudSnapshots</id>
+			<name>leancloud nexus</name>
+			<url>http://maven.mei.fm/nexus/content/repositories/snapshots/</url>
+		</snapshotRepository>
 	</distributionManagement>
 
 </project>

@@ -7,7 +7,7 @@
 	</parent>
 
 	<groupId>cn.leancloud.conf</groupId>
-	<artifactId>diamond-sdk</artifactId>
+	<artifactId>conf-sdk</artifactId>
 	<name>conf-sdk v${project.version} </name>
 	<packaging>jar</packaging>
 
@@ -17,8 +17,8 @@
 			<artifactId>junit</artifactId>
 		</dependency>
 		<dependency>
-			<groupId>com.taobao.diamond</groupId>
-			<artifactId>diamond-utils</artifactId>
+			<groupId>cn.leancloud.conf</groupId>
+			<artifactId>conf-utils</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>commons-httpclient</groupId>
