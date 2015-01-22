@@ -3,7 +3,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>conf管理后台登录</title>
+<title>Diamond管理后台登录</title>
 </head>
 <body>
 <c:import url="/jsp/common/message.jsp"/>

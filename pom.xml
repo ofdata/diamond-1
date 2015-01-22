@@ -208,7 +208,7 @@
 			</plugin>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-cl over-plugin</artifactId>
+				<artifactId>maven-clover-plugin</artifactId>
 				<configuration>
 					<licenseLocation>clover.license</licenseLocation>
 					<generateHistorical>true</generateHistorical>
