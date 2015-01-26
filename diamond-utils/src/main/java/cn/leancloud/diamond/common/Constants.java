@@ -19,7 +19,7 @@ public class Constants {
 
     public static final String DAILY_DOMAINNAME = "daily.avoscloud.com";
 
-    public static final int DEFAULT_PORT = 8080;
+    public static final int DEFAULT_PORT = 80;
 
     public static final String NULL = "";
 
@@ -35,10 +35,6 @@ public class Constants {
 
     public static final String PROBE_MODIFY_REQUEST = "Probe-Modify-Request";
 
-    //public static final String PROBE_MODIFY_RESPONSE = "Probe-Modify-Response";
-
-    //public static final String PROBE_MODIFY_RESPONSE_NEW = "Probe-Modify-Response-New";
-
     public static final String CONTENT_MD5 = "Content-MD5";
 
     public static final String IF_MODIFIED_SINCE = "If-Modified-Since";
@@ -53,11 +49,9 @@ public class Constants {
 
     public static final int RECV_WAIT_TIMEOUT = ONCE_TIMEOUT * 5;// 毫秒
 
-    public static final String HTTP_URI_FILE = "/diamond-server/config.co";
+    public static final String HTTP_URI_FILE = "/diamond/config.co";
 
-    public static final String CONFIG_HTTP_URI_FILE = "/diamond-server/diamond";
-
-    //public static final String HTTP_URI_LOGIN = "/diamond-server/";
+    public static final String CONFIG_HTTP_URI_FILE = "/diamond/diamond";
 
     public static final String ENCODE = "UTF-8";
 
@@ -65,9 +59,6 @@ public class Constants {
 
     public static final String WORD_SEPARATOR = Character.toString((char) 2);
 
-    //public static final String DEFAULT_USERNAME = "paomian";
-
-    //public static final String DEFAULT_PASSWORD = "123";
     
     /*
      * 批量操作时, 单条数据的状态码
