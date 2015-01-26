@@ -15,9 +15,9 @@ public class Constants {
     
     public static final String BASE_DIR = "config-data";
 
-    public static final String DEFAULT_DOMAINNAME = "config.leancloud.cn";
+    public static final String DEFAULT_DOMAINNAME = "diamond.avoscloud.com";
 
-    public static final String DAILY_DOMAINNAME = "daily.leancloud.cn";
+    public static final String DAILY_DOMAINNAME = "daily.avoscloud.com";
 
     public static final int DEFAULT_PORT = 8080;
 
