@@ -15,11 +15,11 @@ public class Constants {
     
     public static final String BASE_DIR = "config-data";
 
-    public static final String DEFAULT_DOMAINNAME = "diamond.avoscloud.com";
+    public static final String DEFAULT_DOMAINNAME = "code2.avoscloud.com";
 
-    public static final String DAILY_DOMAINNAME = "daily.avoscloud.com";
+    public static final String DAILY_DOMAINNAME = "code2.avoscloud.com";
 
-    public static final int DEFAULT_PORT = 80;
+    public static final int DEFAULT_PORT = 8080;
 
     public static final String NULL = "";
 
@@ -59,7 +59,7 @@ public class Constants {
 
     public static final String WORD_SEPARATOR = Character.toString((char) 2);
 
-    
+
     /*
      * 批量操作时, 单条数据的状态码
      */

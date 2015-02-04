@@ -249,7 +249,7 @@
               <!--<url>http://mvnrepo.code.taobao.org/nexus/content/repositories/snapshots/</url>-->
          <!--</snapshotRepository>-->
 	<!--</distributionManagement>-->
-	<distributionManagement>
+<!--	<distributionManagement>
 		<repository>
 			<id>leancloudReleases</id>
 			<name>leancloud nexus</name>
@@ -260,6 +260,13 @@
 			<name>leancloud nexus</name>
 			<url>http://maven.mei.fm/nexus/content/repositories/snapshots/</url>
 		</snapshotRepository>
-	</distributionManagement>
+	</distributionManagement>-->
+<distributionManagement>
+	<repository>
+		<id>clojars</id>
+		<name>Clojars repository</name>
+		<url>https://clojars.org/repo</url>
+	</repository>
+</distributionManagement>
 
 </project>
