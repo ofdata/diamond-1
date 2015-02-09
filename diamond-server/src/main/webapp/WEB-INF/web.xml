@@ -17,9 +17,9 @@
 		<param-value>60000</param-value>
 	</context-param>
 
-	<listener>
-		<listener-class>org.springframework.web.util.Log4jConfigListener</listener-class>
-	</listener>
+	<!--<listener>-->
+		<!--<listener-class>org.springframework.web.util.Log4jConfigListener</listener-class>-->
+	<!--</listener>-->
 	<!-- spring监听器 -->
 	<listener>
 		<listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
@@ -31,13 +31,13 @@
 		<filter-class>org.springframework.web.filter.CharacterEncodingFilter</filter-class>
 		<init-param>
 			<param-name>encoding</param-name>
-			<param-value>GBK</param-value>
+			<param-value>UTF-8</param-value>
 		</init-param>
 	</filter>
 	<!-- 授权过滤器 -->
 	<filter>
 		<filter-name>authorizationFilter</filter-name>
-		<filter-class>com.taobao.diamond.server.listener.AuthorizationFilter</filter-class>
+		<filter-class>cn.leancloud.diamond.server.listener.AuthorizationFilter</filter-class>
 	</filter>
 
 	<filter-mapping>
@@ -63,7 +63,7 @@
 	
 	<servlet>
 		<servlet-name>ConfigServlet</servlet-name>
-		<servlet-class>com.taobao.diamond.server.controller.ConfigServlet</servlet-class>
+		<servlet-class>cn.leancloud.diamond.server.controller.ConfigServlet</servlet-class>
 		<load-on-startup>-1</load-on-startup>
 	</servlet>
 	

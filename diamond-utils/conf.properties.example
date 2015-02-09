@@ -1,0 +1,8 @@
+pollingintervaltime=15
+userflowcontrol=false
+oncetimeout=2000
+recvwaittime=10000
+scheduledthreadpool=2
+configserveraddress=192.168.33.10
+configserverport=8080
+retrievedataretrytimes=1

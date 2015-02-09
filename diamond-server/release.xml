@@ -8,8 +8,8 @@
 	<moduleSets>
 		<moduleSet>
 			<includes>
-				<include>com.taobao.diamond:diamond-utils</include>
-				<include>com.taobao.diamond:diamond-server</include>	
+				<include>cn.leancloud.diamond:diamond-utils</include>
+				<include>cn.leancloud.diamond:diamond-server</include>
 			</includes>
 			<binaries>
 				<outputDirectory>diamond-server/lib/</outputDirectory>
